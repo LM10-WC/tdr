@@ -1,0 +1,295 @@
+<h1 id="institut-universitaire-des-sciences-ius">Institut Universitaire
+des Sciences (IUS)</h1>
+<h2 id="faculté-des-sciences-et-des-technologies-fst">Faculté des
+Sciences et des Technologies (FST)</h2>
+<h3 id="présentation-du-lab-3">Présentation du Lab 3</h3>
+<p><strong>Cours</strong> : Réseaux<br />
+<strong>Sujet</strong> : Configuration de NAT et d’un réseau IoT
+(Internet des Objets) sur Cisco Packet Tracer</p>
+<p><strong>Étudiant</strong> : Wendy Colas<br />
+<strong>Niveau</strong> : L3</p>
+<p><strong>Année</strong> : 2025</p>
+<h1 id="introduction">Introduction</h1>
+<p>Dans le cadre de ce projet, une configuration réseau a été réalisée
+en utilisant GNS3 et VMware Workstation afin de simuler un environnement
+de travail fonctionnel et sécurisé. Les services essentiels tels que
+Telnet, SSH, DNS et DHCP ont été configurés avec précision pour garantir
+la connectivité et la gestion efficaces des appareils réseau. Ce rapport
+vise à détailler les étapes clés de la configuration, tout en mettant en
+lumière les défis rencontrés et les solutions apportées. Ce projet a
+permis d’explorer et de configurer plusieurs services réseau clés,
+notamment Telnet, SSH, DNS et DHCP, dans un environnement simulé à
+l’aide de GNS3 et VMware Workstation. Deux topologies distinctes,
+intégrant des VPCs et des conteneurs Ubuntu Docker, ont été testées,
+offrant des résultats intéressants. Ce travail met en évidence
+l’importance d’une configuration méthodique et d’un choix soigné des
+composants pour assurer la connectivité et la gestion réseau.</p>
+<hr />
+<h1
+id="reproduction-de-la-topologie-en-configurant-le-protocole-telnet">Reproduction
+de la topologie en configurant le protocole Telnet</h1>
+<h2 id="étapes-de-configuration">Étapes de configuration</h2>
+<h3 id="définition-de-linterface-réseau">1. Définition de l’interface
+réseau</h3>
+<p>La première étape consiste à activer et configurer l’interface réseau
+de base.</p>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(50).png"
+alt="Configuration de l’interface" />
+<figcaption aria-hidden="true">Configuration de l’interface</figcaption>
+</figure>
+<h3 id="attribution-des-adresses-ip">2. Attribution des adresses IP</h3>
+<p>La deuxième étape est l’attribution des adresses IP à
+l’interface.</p>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(51).png"
+alt="Attribution des adresses IP" />
+<figcaption aria-hidden="true">Attribution des adresses IP</figcaption>
+</figure>
+<h3 id="activation-de-telnet">3. Activation de Telnet</h3>
+<p>Configuration des lignes VTY pour permettre l’accès via Telnet.</p>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(52).png"
+alt="Activation de Telnet" />
+<figcaption aria-hidden="true">Activation de Telnet</figcaption>
+</figure>
+<h3 id="vérification-de-la-connectivité">4. Vérification de la
+connectivité</h3>
+<p>Tests de connectivité entre les appareils configurés pour Telnet.</p>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(53).png"
+alt="Tests de connectivité" />
+<figcaption aria-hidden="true">Tests de connectivité</figcaption>
+</figure>
+<h3 id="sauvegarde-des-configurations">5. Sauvegarde des
+configurations</h3>
+<p>Confirmation et sauvegarde des configurations.</p>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(54).png"
+alt="Sauvegarde des configurations" />
+<figcaption aria-hidden="true">Sauvegarde des
+configurations</figcaption>
+</figure>
+<h3 id="résolution-des-erreurs">6. Résolution des erreurs</h3>
+<p>Gestion des erreurs lors de la configuration.</p>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(55).png"
+alt="Gestion des erreurs" />
+<figcaption aria-hidden="true">Gestion des erreurs</figcaption>
+</figure>
+<h3 id="résultat-final">7. Résultat final</h3>
+<p>Topologie fonctionnelle avec le protocole Telnet entièrement
+opérationnel.</p>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(56).png"
+alt="Topologie finale" />
+<figcaption aria-hidden="true">Topologie finale</figcaption>
+</figure>
+<hr />
+<h1
+id="reproduction-de-la-topologie-en-configurant-le-protocole-telnet-en-utilisant-un-ubuntu-docker-guest">Reproduction
+de la topologie en configurant le protocole Telnet en utilisant un
+Ubuntu Docker guest</h1>
+<h2 id="étapes-de-la-configuration">Étapes de la configuration</h2>
+<h3 id="connexion-initiale-via-telnet">1. Connexion initiale via
+Telnet</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(57).png"
+alt="Connexion initiale" />
+<figcaption aria-hidden="true">Connexion initiale</figcaption>
+</figure>
+<h3 id="interface-réseau-après-configuration">2. Interface réseau après
+configuration</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(58).png"
+alt="Interface réseau" />
+<figcaption aria-hidden="true">Interface réseau</figcaption>
+</figure>
+<h3 id="vérification-de-létat-des-interfaces">3. Vérification de l’état
+des interfaces</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(59).png"
+alt="Vérification interfaces" />
+<figcaption aria-hidden="true">Vérification interfaces</figcaption>
+</figure>
+<h3 id="modification-du-fichier-de-configuration-réseau">4. Modification
+du fichier de configuration réseau</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(60).png"
+alt="Configuration réseau" />
+<figcaption aria-hidden="true">Configuration réseau</figcaption>
+</figure>
+<h3 id="résultats-après-redémarrage-des-services">5. Résultats après
+redémarrage des services</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(61).png"
+alt="Résultats après redémarrage" />
+<figcaption aria-hidden="true">Résultats après redémarrage</figcaption>
+</figure>
+<h3 id="test-de-connectivité-réseau">6. Test de connectivité réseau</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(62).png"
+alt="Test connectivité" />
+<figcaption aria-hidden="true">Test connectivité</figcaption>
+</figure>
+<h3 id="utilisation-du-protocole-telnet-pour-laccès-distant">7.
+Utilisation du protocole Telnet pour l’accès distant</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(63).png"
+alt="Telnet accès distant" />
+<figcaption aria-hidden="true">Telnet accès distant</figcaption>
+</figure>
+<h3 id="résultats-finaux-de-la-configuration">8. Résultats finaux de la
+configuration</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(64).png"
+alt="Résultats finaux" />
+<figcaption aria-hidden="true">Résultats finaux</figcaption>
+</figure>
+<hr />
+<h1
+id="reproduction-de-la-topologie-en-configurant-le-protocole-ssh">Reproduction
+de la topologie en configurant le protocole SSH</h1>
+<h3 id="image-1-vue-globale-de-la-topologie">Image 1 : Vue globale de la
+topologie</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(65).png" alt="Image 65" />
+<figcaption aria-hidden="true">Image 65</figcaption>
+</figure>
+<h3 id="image-2-configuration-de-linterface-fastethernet">Image 2 :
+Configuration de l’interface FastEthernet</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(66).png" alt="Image 66" />
+<figcaption aria-hidden="true">Image 66</figcaption>
+</figure>
+<h3 id="image-3-configuration-du-pc1">Image 3 : Configuration du
+PC1</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(67).png" alt="Image 67" />
+<figcaption aria-hidden="true">Image 67</figcaption>
+</figure>
+<h3 id="image-4-configuration-du-pc2">Image 4 : Configuration du
+PC2</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(68).png" alt="Image 68" />
+<figcaption aria-hidden="true">Image 68</figcaption>
+</figure>
+<h3 id="image-5-configuration-de-ssh-sur-le-routeur">Image 5 :
+Configuration de SSH sur le routeur</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(69).png" alt="Image 69" />
+<figcaption aria-hidden="true">Image 69</figcaption>
+</figure>
+<h3 id="image-6-vérification-des-connexions-réseau">Image 6 :
+Vérification des connexions réseau</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(70).png" alt="Image 70" />
+<figcaption aria-hidden="true">Image 70</figcaption>
+</figure>
+<hr />
+<h1
+id="reproduction-de-la-topologie-du-réseau-en-configurant-ssh-avec-un-ubuntu-docker-guest">Reproduction
+de la topologie du réseau en configurant SSH avec un Ubuntu Docker
+guest</h1>
+<h3 id="étapes-principales">Étapes principales :</h3>
+<h3 id="configuration-initiale-avec-solar-putty">1. Configuration
+initiale avec Solar-PuTTY</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(71).png" alt="Image 71" />
+<figcaption aria-hidden="true">Image 71</figcaption>
+</figure>
+<h3 id="configuration-dun-pc-virtuel-vpcs">2. Configuration d’un PC
+virtuel (VPCS)</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(72).png" alt="Image 72" />
+<figcaption aria-hidden="true">Image 72</figcaption>
+</figure>
+<h3 id="ssh-et-génération-de-clés-rsa">3. SSH et génération de clés
+RSA</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(73).png" alt="Image 73" />
+<figcaption aria-hidden="true">Image 73</figcaption>
+</figure>
+<h3 id="résultat-de-la-commande-ifconfig">4. Résultat de la commande
+<code>ifconfig</code></h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(74).png" alt="Image 74" />
+<figcaption aria-hidden="true">Image 74</figcaption>
+</figure>
+<h3 id="fichier-réseau-statique-modifié">5. Fichier réseau statique
+modifié</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(75).png" alt="Image 75" />
+<figcaption aria-hidden="true">Image 75</figcaption>
+</figure>
+<h3 id="configuration-réseau-dans-ubuntu-docker">6. Configuration réseau
+dans Ubuntu Docker</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(76).png" alt="Image 76" />
+<figcaption aria-hidden="true">Image 76</figcaption>
+</figure>
+<h3 id="configuration-du-client-ssh">7. Configuration du client SSH</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(77).png" alt="Image 77" />
+<figcaption aria-hidden="true">Image 77</figcaption>
+</figure>
+<h3 id="session-ssh-réussie">8. Session SSH réussie</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(78).png" alt="Image 78" />
+<figcaption aria-hidden="true">Image 78</figcaption>
+</figure>
+<hr />
+<h1
+id="reproduction-de-la-topologie-du-réseau-en-configurant-le-serveur-dns">Reproduction
+de la topologie du réseau en configurant le serveur DNS</h1>
+<h3 id="étapes-principales-1">Étapes principales :</h3>
+<ol type="1">
+<li>Activation du DNS sur le routeur.<br />
+</li>
+<li>Configuration des interfaces et attribution des adresses IP.<br />
+</li>
+<li>Paramétrage des passerelles par défaut et des adresses IP des
+PC.<br />
+</li>
+<li>Test de résolution DNS avec <code>ping</code> et
+<code>nslookup</code>.</li>
+</ol>
+<h3 id="images-supplémentaires">Images supplémentaires :</h3>
+<p><img src="C:/Td-2025/Td/image/image%20(81).png"
+alt="Image 81" /><br />
+<img src="C:/Td-2025/Td/image/image%20(85).png"
+alt="Résolution DNS réussie" /></p>
+<hr />
+<h1
+id="reproduction-de-la-topologie-du-réseau-en-configurant-dhcp">Reproduction
+de la topologie du réseau en configurant DHCP</h1>
+<h2 id="étapes-principales-2">Étapes principales :</h2>
+<h3 id="configuration-initiale">1. Configuration initiale</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(91).png" alt="Image 91" />
+<figcaption aria-hidden="true">Image 91</figcaption>
+</figure>
+<h3 id="vérification-des-paramètres-de-dhcp">2. Vérification des
+paramètres de DHCP</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(92).png" alt="Image 92" />
+<figcaption aria-hidden="true">Image 92</figcaption>
+</figure>
+<h3 id="simulation-de-la-connectivité-des-pc">3. Simulation de la
+connectivité des PC</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(93).png" alt="Image 93" />
+<figcaption aria-hidden="true">Image 93</figcaption>
+</figure>
+<h3 id="résultats-du-ping-test">4. Résultats du ping test</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(94).png" alt="Image 94" />
+<figcaption aria-hidden="true">Image 94</figcaption>
+</figure>
+<h3 id="finalisation-et-sauvegarde-de-la-configuration">5. Finalisation
+et sauvegarde de la configuration</h3>
+<figure>
+<img src="C:/Td-2025/Td/image/image%20(95).png" alt="Image 95" />
+<figcaption aria-hidden="true">Image 95</figcaption>
+</figure>
+<hr />
